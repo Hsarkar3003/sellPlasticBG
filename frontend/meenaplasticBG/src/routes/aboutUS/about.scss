@@ -1,0 +1,81 @@
+.about {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    scroll-snap-align: center;
+
+    .compny {
+        display: flex;
+        height: 600px;
+        width: 600px;
+        margin: 150px;
+
+        .details {
+            margin-top: 150px;
+            h1 {
+                font-size: 42px;
+            }
+
+            p {
+                color: grey;
+                font-size: 18px;
+                margin-top: 10px;
+            }
+
+        }
+
+        .iconCompany {
+            position: relative;
+
+            .img {
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+            }
+        }
+
+
+    }
+}
+.how{
+    display: flex;
+    height: 100vh;
+    margin: 250px;
+
+   
+    h1{
+        font-size: 42px;
+    }
+    li{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .slider{
+        margin-left: 150px;
+       max-height: max-content;
+       
+    }
+  
+
+}
+.how2{
+   
+    margin:-300px 250px 250px 250px;
+    .content{
+        
+        width: 700px;
+        h1{
+            font-size: 42px;
+        }
+        p{
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        li{
+            font-size: 18px;
+            margin-top: 15px;
+        }
+    }
+}

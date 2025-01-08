@@ -1,0 +1,40 @@
+.main4 {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+  
+
+    .crad-main {
+        height: 300px;
+        width: 250px;
+        background:white;
+
+        margin-top: 60px;
+        align-content: center;
+        transition: transform 0.3s ease-in-out; 
+
+        &:hover {
+            // Hover styles
+            color: white;
+            background-color: green;
+            transform: scale(1.2); 
+
+          }
+
+        .image {
+            img {
+                height: 230px;
+                width: 90%;
+                margin-left: 12px;
+            }
+        }
+
+        .names {
+            text-align: center;
+            font-size: 26px;
+            margin: 10px 10px;
+        }
+
+
+    }
+}
